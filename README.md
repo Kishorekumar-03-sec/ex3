@@ -28,122 +28,101 @@ Execute the program using runserver command.
 ## PROGRAM
 ```
 <!DOCTYPE html>
-<html>
-    <head><title>SEC timetable</title</head>
-        <body>
-            <center>
-                <img src=""/static/logo.png" height="100" width="550"
-            </center>
-            <table border="5"width="600">
-                <tr>
-                    <th bgcolor="yellow">day/time</th>
-                    <th bgcolor="yellow">Monday</th>
-                    <th bgcolor="yellow">Tuesday</th>
-                    <th bgcolor="yellow">Wednesday</th>
-                    <th bgcolor="yellow">Thursday</th>
-                    <th bgcolor="yellow">Fridayday</th>
-                   <th bgcolor="yellow">Saturday</th>
-                </tr>
-                <tr>
-                    <th bgcolor="yellow">8-10</th>
-                    <th colspan="3" align="center"bgcolor="cyan">FREE SLOT</th>
-                    <th bgcolor="cyan">Environmental science</th>
-                    <th colspan="3" align="center"bgcolor="cyan">FREE SLOT</th>
-                    <th colspan="3" align="center"bgcolor="cyan">FREE SLOT</th>
-                    <th colspan="3" align="center"bgcolor="cyan">FREE SLOT</th>
-                    <th colspan="3" align="center"bgcolor="cyan">FREE SLOT</th>
-                    </tr>
-                <tr>
-                    <th bgcolor="yellow">10-12</th>
-                    <th bgcolor="cyan">Web development</th>
-                    <th bgcolor="cyan">Physics</th>
-                    <th bgcolor="cyan">C programming</th>
-                    <th bgcolor="cyan">Communicative english</th>
-                    <th bgcolor="cyan">C programming</th>
-                    <th bgcolor="cyan">Probality and queueing models</th>
-                </tr>
-                <tr>
-                    <th bgcolor="yellow">12-01</th>
-                    <th bgcolor="green">Lunch</th>
-                    <th bgcolor="green">Lunch</th>  
-                    <th bgcolor="green">Lunch</th>  
-                    <th bgcolor="green">Lunch</th>  
-                    <th bgcolor="green">Lunch</th>  
-                    <th bgcolor="green">Lunch</th>                  
-                </tr>
-                <tr>
-                    <th bgcolor="yellow">01-03</th>
-                    <th bgcolor="cyan">B.eee</th>
-                    <th bgcolor="cyan">Communicative english</th>
-                    <th bgcolor="cyan">Mentor meet</th>
-                    <th bgcolor="cyan">Web development</th>
-                    <th bgcolor="cyan">Probability and queueing models</th>
-                    <th bgcolor="cyan">Physics</th>
-                </tr>
-                <tr>
-                    <th bgcolor="yellow">03-05</th>
-                    <th colspan="3" align="center"bgcolor="cyan">FREE SLOT</th>
-                    <th bgcolor="cyan">B.eee</th>
-                    <th colspan="3" align="center"bgcolor="cyan">FREE SLOT</th>
-                    <th bgcolor="cyan">Career developmemt</th>
-                    <th bgcolor="cyan">Web developmemt</th>
-                </tr>
-            </table>
-            <br>
-            <table border="3" width="600">
-                <tr>
-                    <td>S.no</td>
-                    <td>Subject code</td>
-                    <td>Subject name</td>
-                </tr>
-                <tr>
-                    <td>01</td>
-                    <td>19AI304</td>
-                    <td>C programming</td>
-                </tr>
-                <tr>
-                    <td>02</td>
-                    <td>19AI414</td>
-                    <td>Web development</td>
-                </tr>
-                <tr>
-                    <td>03</td>
-                    <td>19EE305</td>
-                    <td>B.eee</td>
-                </tr>
-                <tr>
-                    <td>04</td>
-                    <td>19EN101</td>
-                    <td>Communicative english</td>
-                </tr>
-                <tr>
-                    <td>05</td>
-                    <td>19EY708</td>
-                    <td>Career developmemt</td>
-                </tr>
-                <tr>
-                    <td>06</td>
-                    <td>19MA222</td>
-                    <td>Probability and queueing models</td>
-                </tr>
-                <tr>
-                    <td>07</td>
-                    <td>SH3214</td>
-                    <td>Physics</td>
-                </tr>
-                <tr>
-                    <td>08</td>
-                    <td>SH3214</td>
-                    <td>Environmrntal science</td>
-                </tr>
-            </table>
-        </body>
-    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><img src="hello.jpg" height="100px" width="500px" alt="something went wrong"/></center>
+    <center><h1>KISHOREKUMAR S- 212224040162</h1></center>
+    <center><h1>TIME TABLE</h1></center>
+    <center><table border="6">
+        <tr>
+            <td bgcolor="Yellow">Day/Time</td>
+            <th bgcolor="REd">Monday</th>
+            <th bgcolor="REd">Tuesday</th>
+            <th bgcolor="REd">Wednesday</th>
+            <th bgcolor="REd">Thursday</th>
+            <th bgcolor="REd">Friday</th>
+        </tr>
+        <tr>
+            <td bgcolor="Yellow">8-10</td>
+            <td colspan="3" align="center" bgcolor="green">     FREE SLOT   </td>
+            <td bgcolor="cyan">PYTHON</td>
+            <td bgcolor="cyan">C ADVANCE</td>
+        </tr> 
+        <tr>
+            <td bgcolor="Yellow">10-12</td>
+            <td bgcolor="cyan">GER</td>
+            <td bgcolor="green">FREE SLOT</td>
+            <td bgcolor="cyan">FWAD</td>
+            <td bgcolor="cyan">C ADVANCE</td>
+            <td bgcolor="cyan">PYTHON</td>
+        </tr>
+        <tr>
+            <td bgcolor="Yellow">12-1</td>
+            <td colspan="5" align="center" bgcolor="lightblue">LUNCH</td>
+        </tr>
+        <tr>
+            <td bgcolor="Yellow">1-3</td>
+            <td colspan="2" align="center" bgcolor="green">FREE SLOT</td>
+            <td bgcolor="cyan">PYTHON</td>
+            <td bgcolor="cyan">C ADVANCE</td>
+            <td bgcolor="cyan">FWD</td>
+        </tr>
+        <tr>
+            <td bgcolor="Yellow" >3-5</td>
+            <td colspan="2" align="center"bgcolor="green">FREE SLOT</td>
+            <td bgcolor="cyan">FWD</td>
+            <td bgcolor="cyan">SOCIAL</td>
+            <td bgcolor="cyan">PYTHON</td>
+        </tr>
+    </table></center><br>
+
+
+    <center><table border="4">
+        <tr>
+            <td colspan="1">S.NO</td>
+            <td colspan="2" align="center" >  SUBJECT CODE   </td>
+            <td colspan="4" align="center" >  SUBJECT NAME  </td>
+        </tr>
+        <tr>
+            <td colspan="1">1.</td>
+            <th colspan="2">19AI302</th>
+            <th colspan="4">FUNDAMENTALS OF WEB</th>
+        </tr>
+        <tr>
+            <td colspan="1">2.</td>
+            <th colspan="2">19AI303</th>
+            <th colspan="4">FUNDAMENTALS OF PYTHON</th>
+        </tr>
+        <tr>
+            <td colspan="1">3.</td>
+            <th colspan="2">19AI404</th>
+            <th colspan="4">FUNDAMENTALS OF C PROGRAM</th>
+        </tr>
+        <tr>
+            <td colspan="1">4.</td>
+            <th colspan="2">19AI502</th>
+            <th colspan="4">ARTIFICIAL INTELLIGENCE</th>
+        </tr>
+        <tr>
+            <td colspan="1">5.</td>
+            <th colspan="2">19AI503</th>
+            <th colspan="4">FUNDAMENTALS OF WEB</th>
+        </tr>
+
+    </table></center>
+</body>
 </html>
+
 ```
 
 ## OUTPUT
-![alt text](<Screenshot 2024-11-17 201248.jpg>)
+![Screenshot 2025-04-16 210053](https://github.com/user-attachments/assets/d99620b5-51b7-44e4-b4a7-7d797c0c901b)
+
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
